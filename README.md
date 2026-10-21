@@ -30,28 +30,108 @@ Disk cleaners are either paid, closed-source, or look like a tax form. Disk Inva
 | ![Brain](docs/screenshots/brain.png) | ![Brain says](docs/screenshots/brain-says.png) |
 | ![Phosphor](docs/screenshots/theme-phosphor.png) | ![C64](docs/screenshots/theme-c64.png) |
 
-## Download
+## 📥 Install (no programming needed)
 
-Grab the latest `.dmg` (macOS) or `.msi` / `.exe` (Windows) from **[Releases](../../releases)**.
+1. Open **[Releases](../../releases/latest)** and download the file for your computer:
 
-- **macOS:** builds are not notarized yet. Right-click the app → *Open* the first time. For a complete scan, allow *System Settings → Privacy &amp; Security → Full Disk Access*.
-- **Windows:** SmartScreen may warn about an unknown publisher → *More info* → *Run anyway*.
+   | Your computer | File to download |
+   |---|---|
+   | 🍎 Mac (Apple Silicon or Intel) | `Disk.Invaders_x.y.z_universal.dmg` |
+   | 🪟 Windows 10 / 11 | `Disk.Invaders_x.y.z_x64-setup.exe` |
 
-## Build from source
+2. Install it:
 
-You need [Node.js 20+](https://nodejs.org), [Rust 1.90+](https://rustup.rs) and the [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/) for your OS.
+<details>
+<summary><b>🍎 macOS: step by step</b></summary>
 
-```sh
-npm install
-npm run app          # run the desktop app in dev mode
-npm run app:build    # build an installer into target/release/bundle
-```
+1. Open the `.dmg` and drag **Disk Invaders** into **Applications**.
+2. Start it from Applications. The app is not notarized by Apple yet, so the first time macOS says it *cannot verify the developer*:
+   - click **Done**, then open **System Settings → Privacy &amp; Security**, scroll down and click **Open Anyway**;
+   - or run once in Terminal: `xattr -dr com.apple.quarantine "/Applications/Disk Invaders.app"`
+3. For a full scan, add the app in **System Settings → Privacy &amp; Security → Full Disk Access** and restart it.
 
-UI only, no Rust needed: `npm run dev` opens a **demo mode** in the browser with a fake disk.
+</details>
 
-Scanner only, no UI: `cargo run --release -p invaders-core --example scan -- ~/`
+<details>
+<summary><b>🪟 Windows: step by step</b></summary>
 
-Brain only: `cargo run --release -p invaders-core --example brain -- "~/code/shop/node_modules"` (without arguments it takes its final exam)
+1. Run the `-setup.exe` file.
+2. If **"Windows protected your PC"** appears: click **More info → Run anyway** (the app is not signed yet).
+3. Finish the installer and start **Disk Invaders** from the Start menu.
+
+</details>
+
+## 🛠 Build from source
+
+Only if you want to change the code. Every command runs **in the project folder**, the one that contains `package.json`.
+
+<details>
+<summary><b>🍎 macOS</b></summary>
+
+1. Install the tools (once):
+   ```sh
+   xcode-select --install                                          # Apple compilers
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh  # Rust
+   ```
+   and [Node.js LTS](https://nodejs.org). Close and reopen Terminal.
+2. Check: `node -v` and `cargo -V` both print a version.
+3. Get the code and run it:
+   ```sh
+   git clone https://github.com/Fen1x678/disk-invaders.git
+   cd disk-invaders
+   npm install
+   npm run app
+   ```
+   The first build takes 5–10 minutes, later ones are fast.
+4. Make your own app: `npm run app:build` → `target/release/bundle/macos/Disk Invaders.app`
+
+</details>
+
+<details>
+<summary><b>🪟 Windows</b></summary>
+
+1. Install the tools (once):
+   - [Node.js LTS](https://nodejs.org)
+   - [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/): tick **Desktop development with C++**
+   - [Rust](https://rustup.rs): run `rustup-init.exe`, press Enter for the defaults
+   - WebView2 is already part of Windows 10/11.
+
+   Close and reopen the terminal.
+2. Check: `node -v` and `cargo -V` both print a version.
+3. Get the code and run it (a short path without spaces or non-Latin letters is safest):
+   ```bat
+   mkdir C:\dev
+   cd C:\dev
+   git clone https://github.com/Fen1x678/disk-invaders.git
+   cd disk-invaders
+   npm install
+   npm run app
+   ```
+   No git? **Code → Download ZIP**, unzip it and `cd` into the folder that contains `package.json`
+   (ZIPs often unpack as `disk-invaders-main\disk-invaders-main`).
+4. Make your own installer: `npm run app:build` → `target\release\bundle\nsis\`
+
+</details>
+
+<details>
+<summary><b>❓ Something went wrong</b></summary>
+
+| Error | Fix |
+|---|---|
+| `Could not read package.json` / `ENOENT` | You are in the wrong folder. `cd` into the one with `package.json` (`dir` / `ls` to check). |
+| `tauri: command not found` / `'tauri' is not recognized` | Run `npm install` first. |
+| `cargo: command not found` / `'cargo' is not recognized` | Install Rust, then **reopen** the terminal. |
+| `link.exe not found` (Windows) | Install Visual Studio Build Tools with **Desktop development with C++**. |
+| `requires rustc 1.xx` | `rustup update` |
+| Empty window | You opened the dev build directly. Use `npm run app`, or build the real app with `npm run app:build`. |
+
+</details>
+
+**Other ways to play:**
+
+- **Browser demo, no Rust:** `npm install`, then `npm run dev` (a fake disk).
+- **Scanner only:** `cargo run --release -p invaders-core --example scan -- ~/`
+- **Brain only:** `cargo run --release -p invaders-core --example brain` (it takes its final exam)
 
 ## How it works
 
