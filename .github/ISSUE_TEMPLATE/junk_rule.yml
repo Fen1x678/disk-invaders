@@ -1,0 +1,18 @@
+name: Suggest a junk rule
+description: A folder or file type that wastes space and is safe(ish) to delete
+labels: [junk-rule, good first issue]
+body:
+  - type: input
+    attributes:
+      label: Path or folder name
+      placeholder: "~/Library/Caches/SomeApp, or any folder called .gradle next to build.gradle"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Which app/tool creates it, and does it re-create it automatically?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Typical size

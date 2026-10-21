@@ -1,0 +1,24 @@
+name: Teach the brain
+description: Something the brain got wrong, or a kind of junk it should learn
+labels: [brain, good first issue]
+body:
+  - type: input
+    attributes:
+      label: Path (use ~ for your home folder)
+      placeholder: "~/Library/Caches/com.example.app"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: What should the brain say?
+      options: [delete, review, keep]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why? Which app creates it, is it re-created automatically?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What did the brain say instead? (optional)

@@ -1,0 +1,694 @@
+path,kind,size_mb,age_days,label,note
+~/Library/Caches/com.spotify.client,dir,2200.0,4,delete,app cache
+~/Library/Caches/com.google.Chrome,dir,1477.6,66,delete,app cache
+~/Library/Caches/Google,dir,2980.5,40,delete,app cache
+~/Library/Caches/com.microsoft.VSCode.ShipIt,dir,2502.7,58,delete,app cache
+~/Library/Caches/Homebrew,dir,1506.2,70,delete,app cache
+~/Library/Caches/pip,dir,2267.8,46,delete,app cache
+~/Library/Caches/Yarn,dir,1833.6,69,delete,app cache
+~/Library/Caches/JetBrains,dir,2842.0,33,delete,app cache
+~/Library/Caches/com.figma.Desktop,dir,1586.4,51,delete,app cache
+~/Library/Caches/com.tinyspeck.slackmacgap,dir,2675.2,42,delete,app cache
+~/Library/Caches/com.hnc.Discord,dir,1817.1,16,delete,app cache
+~/Library/Caches/Firefox,dir,1987.3,60,delete,app cache
+~/Library/Caches/org.videolan.vlc,dir,150.6,5,delete,app cache
+~/Library/Caches/CocoaPods,dir,465.2,63,delete,app cache
+~/Library/Caches/node-gyp,dir,1595.0,37,delete,app cache
+~/Library/Caches/ms-playwright,dir,1616.5,1,delete,app cache
+~/Library/Caches/typescript,dir,739.6,54,delete,app cache
+~/Library/Caches/go-build,dir,424.4,90,delete,app cache
+~/Library/Caches/com.brave.Browser,dir,355.5,15,delete,app cache
+~/Library/Caches/ru.keepcoder.Telegram,dir,2721.5,13,delete,app cache
+~/Library/Caches/com.microsoft.teams2,dir,1641.6,59,delete,app cache
+~/Library/Caches/us.zoom.xos,dir,1664.3,18,delete,app cache
+~/Library/Caches/electron,dir,2291.3,90,delete,app cache
+~/Library/Caches/vscode-cpptools,dir,1453.3,77,delete,app cache
+~/Library/Caches/com.operasoftware.Opera,dir,1894.6,17,delete,app cache
+~/Library/Caches/SiriTTS,dir,2647.7,76,delete,app cache
+~/Library/Caches/com.adobe.acc.AdobeDesktopService,dir,1855.1,24,delete,app cache
+~/Library/Caches/com.getdropbox.dropbox,dir,488.6,23,delete,app cache
+~/Library/Caches/notion.id,dir,969.6,47,delete,app cache
+~/Library/Caches/com.valvesoftware.steam,dir,1622.7,19,delete,app cache
+~/Library/Application Support/Slack/GPUCache,dir,159.4,58,delete,electron cache
+~/Library/Application Support/discord/GPUCache,dir,430.6,14,delete,electron cache
+~/Library/Application Support/discord/Service Worker/CacheStorage,dir,834.6,40,delete,electron cache
+~/Library/Application Support/Code/Code Cache,dir,582.6,24,delete,electron cache
+~/Library/Application Support/Code/GPUCache,dir,559.5,22,delete,electron cache
+~/Library/Application Support/Microsoft Teams/GPUCache,dir,714.9,18,delete,electron cache
+~/Library/Application Support/Notion/GPUCache,dir,68.1,14,delete,electron cache
+~/Library/Application Support/Spotify/Code Cache,dir,533.1,48,delete,electron cache
+~/Library/Application Support/Figma/Cache,dir,787.9,0,delete,electron cache
+~/Library/Application Support/Figma/Code Cache,dir,780.7,52,delete,electron cache
+~/Library/Application Support/Figma/GPUCache,dir,202.8,46,delete,electron cache
+~/Library/Application Support/Figma/Service Worker/CacheStorage,dir,859.0,53,delete,electron cache
+~/Library/Application Support/Postman/Cache,dir,562.2,16,delete,electron cache
+~/Library/Application Support/Postman/Code Cache,dir,73.2,58,delete,electron cache
+~/Library/Application Support/Postman/GPUCache,dir,123.8,15,delete,electron cache
+~/Library/Application Support/Obsidian/Cache,dir,311.9,2,delete,electron cache
+~/Library/Application Support/Obsidian/Service Worker/CacheStorage,dir,446.7,27,delete,electron cache
+~/Library/Application Support/Signal/Cache,dir,603.1,22,delete,electron cache
+~/Library/Application Support/Signal/Code Cache,dir,835.2,29,delete,electron cache
+~/Library/Application Support/Signal/GPUCache,dir,255.7,57,delete,electron cache
+~/Library/Application Support/Signal/Service Worker/CacheStorage,dir,95.5,0,delete,electron cache
+~/Library/Logs/JetBrains,dir,270.8,191,delete,logs
+~/Library/Logs/DiagnosticReports,dir,147.8,155,delete,logs
+~/Library/Logs/Homebrew,dir,141.5,142,delete,logs
+~/Library/Logs/zoom.us,dir,49.2,177,delete,logs
+~/Library/Logs/Docker,dir,247.3,5,delete,logs
+~/Library/Logs/Steam,dir,182.5,84,delete,logs
+~/Library/Logs/Microsoft Teams,dir,178.8,64,delete,logs
+~/Library/Developer/Xcode/DerivedData,dir,16803.2,9,delete,xcode build cache
+~/Library/Developer/Xcode/iOS DeviceSupport/17.4 (21E219),dir,1898.8,346,delete,device symbols
+~/Library/Developer/Xcode/iOS DeviceSupport/16.6 (20G75),dir,2354.4,299,delete,device symbols
+~/Library/Developer/Xcode/iOS DeviceSupport/15.7 (19H12),dir,2274.6,192,delete,device symbols
+~/Library/Developer/Xcode/iOS DeviceSupport/18.0 (22A3354),dir,2841.2,151,delete,device symbols
+~/Library/Developer/Xcode/iOS DeviceSupport/17.0.3 (21A360),dir,3128.4,350,delete,device symbols
+~/Library/Developer/CoreSimulator/Caches,dir,4555.2,22,delete,simulator cache
+~/.npm/_cacache,dir,6291.7,47,delete,package cache
+~/.cache/pip,dir,6306.5,79,delete,package cache
+~/.cache/uv,dir,4336.5,91,delete,package cache
+~/.cache/yarn,dir,5721.5,37,delete,package cache
+~/.cache/go-build,dir,493.7,120,delete,package cache
+~/.cache/puppeteer,dir,545.7,0,delete,package cache
+~/.cache/ms-playwright,dir,872.9,89,delete,package cache
+~/.cache/node-gyp,dir,963.1,49,delete,package cache
+~/.cache/typescript,dir,8700.3,64,delete,package cache
+~/.gradle/caches,dir,2964.3,116,delete,package cache
+~/.m2/repository,dir,4415.4,65,delete,package cache
+~/.cargo/registry,dir,5807.7,45,delete,package cache
+~/.nuget/packages,dir,4167.7,4,delete,package cache
+~/.pub-cache,dir,5787.6,68,delete,package cache
+~/go/pkg/mod,dir,2231.8,120,delete,package cache
+~/.yarn/berry/cache,dir,5171.7,102,delete,package cache
+~/.pnpm-store,dir,8717.8,45,delete,package cache
+~/.cache/bazel,dir,5139.5,115,delete,package cache
+~/.android/cache,dir,153.9,104,delete,package cache
+~/.expo,dir,8361.4,90,delete,package cache
+~\AppData\Local\Google\Chrome\User Data\Default\Cache,dir,2943.0,87,delete,windows cache
+~\AppData\Local\Microsoft\Edge\User Data\Default\Cache,dir,1562.2,40,delete,windows cache
+~\AppData\Local\Microsoft\Windows\INetCache,dir,1998.0,41,delete,windows cache
+~\AppData\Local\npm-cache,dir,3032.6,49,delete,windows cache
+~\AppData\Local\pip\Cache,dir,408.4,68,delete,windows cache
+~\AppData\Local\D3DSCache,dir,72.9,38,delete,windows cache
+~\AppData\Local\NVIDIA\DXCache,dir,467.1,76,delete,windows cache
+~\AppData\Local\NVIDIA\GLCache,dir,2637.1,17,delete,windows cache
+~\AppData\Local\AMD\DxCache,dir,413.6,26,delete,windows cache
+~\AppData\Roaming\discord\Cache,dir,2978.9,72,delete,windows cache
+~\AppData\Roaming\Code\Cache,dir,1062.0,4,delete,windows cache
+~\AppData\Roaming\Code\CachedData,dir,3929.3,21,delete,windows cache
+~\AppData\Local\Yarn\Cache,dir,3603.7,42,delete,windows cache
+~\AppData\Local\Steam\htmlcache,dir,649.3,72,delete,windows cache
+~\AppData\Roaming\Slack\Cache,dir,2958.6,57,delete,windows cache
+~\AppData\Roaming\Microsoft\Teams\Cache,dir,2641.0,79,delete,windows cache
+~\AppData\Local\Temp\chocolatey,dir,835.3,36,delete,windows cache
+~\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db,file,77.3,51,delete,windows cache
+~\AppData\Local\CrashDumps,dir,3085.6,54,delete,windows cache
+~\AppData\Local\Packages\Microsoft.WindowsStore_8wekyb3d8bbwe\LocalCache,dir,232.5,52,delete,windows cache
+~\AppData\Local\Temp\~DF80246,dir,373.0,130,delete,temp
+~\AppData\Local\Temp\chrome_installer57397,file,199.7,245,delete,temp
+~\AppData\Local\Temp\tmp74547,file,229.3,285,delete,temp
+~\AppData\Local\Temp\tmp78136,file,387.5,109,delete,temp
+~\AppData\Local\Temp\vs_setup18809,dir,264.4,232,delete,temp
+~\AppData\Local\Temp\pip-unpack-40500,dir,391.4,211,delete,temp
+~\AppData\Local\Temp\vs_setup96331,dir,279.5,181,delete,temp
+~\AppData\Local\Temp\chrome_installer75414,file,65.0,120,delete,temp
+~\AppData\Local\Temp\nsu18306,file,429.7,86,delete,temp
+~\AppData\Local\Temp\setup89200,dir,442.6,76,delete,temp
+~\AppData\Local\Temp\pip-unpack-28158,dir,141.3,46,delete,temp
+~\AppData\Local\Temp\setup92996,file,633.6,280,delete,temp
+~\AppData\Local\Temp\setup17498,file,366.5,92,delete,temp
+~\AppData\Local\Temp\npm-32872,file,372.3,107,delete,temp
+~\AppData\Local\Temp\npm-91347,file,422.2,1,delete,temp
+~\AppData\Local\Temp\tmp83771,file,628.5,139,delete,temp
+~\AppData\Local\Temp\chrome_installer37968,dir,599.3,338,delete,temp
+~\AppData\Local\Temp\tmp54102,file,420.2,303,delete,temp
+~\AppData\Local\Temp\msi18851,dir,333.1,136,delete,temp
+~\AppData\Local\Temp\is-34242,dir,258.1,178,delete,temp
+~\AppData\Local\Temp\chrome_installer96460,dir,767.7,227,delete,temp
+~\AppData\Local\Temp\~DF51672,dir,423.9,135,delete,temp
+~\AppData\Local\Temp\pip-unpack-31649,file,59.1,82,delete,temp
+~\AppData\Local\Temp\is-93546,file,335.6,341,delete,temp
+~\AppData\Local\Temp\pip-unpack-79304,dir,102.5,24,delete,temp
+/private/var/folders/xx/102/T/TemporaryItems/19979,dir,258.5,169,delete,temp
+/private/var/folders/xx/850/T/TemporaryItems/57623,dir,286.5,97,delete,temp
+/private/var/folders/xx/363/T/TemporaryItems/81769,dir,244.5,110,delete,temp
+/private/var/folders/xx/346/T/TemporaryItems/42127,dir,150.9,234,delete,temp
+/private/var/folders/xx/315/T/TemporaryItems/10333,dir,225.5,215,delete,temp
+/private/var/folders/xx/222/T/TemporaryItems/62834,dir,282.6,71,delete,temp
+/private/var/folders/xx/254/T/TemporaryItems/34003,dir,39.9,119,delete,temp
+/private/var/folders/xx/657/T/TemporaryItems/13540,dir,237.2,297,delete,temp
+~\source\repos\api\.mypy_cache,dir,179.2,386,delete,mypy
+~\source\repos\pet-project\.svelte-kit,dir,101.3,119,delete,sveltekit
+~/Documents/GitHub/landing/target,dir,5866.6,380,delete,rust build
+~/code/api/target,dir,2738.7,241,delete,rust build
+~/Desktop/projects/api/build,dir,81.8,830,delete,gradle build
+~\source\repos\web-shop\.turbo,dir,173.6,517,delete,turbo
+D:\Projects\telegram-bot\node_modules,dir,421.6,767,delete,npm deps
+~/src/diploma/.parcel-cache,dir,113.5,898,delete,parcel
+~/Documents/GitHub/game-jam/.pytest_cache,dir,1.5,658,delete,pytest
+~/Documents/GitHub/hackathon-2024/.svelte-kit,dir,27.4,481,delete,sveltekit
+D:\Projects\diploma\obj,dir,198.9,152,delete,.net build
+~\source\repos\todo-app\obj,dir,243.0,877,delete,.net build
+~/projects/todo-app/.gradle,dir,561.0,480,delete,gradle cache
+~/projects/web-shop/.tox,dir,539.5,508,delete,tox
+~\source\repos\web-shop\Pods,dir,347.7,773,delete,cocoapods
+~/code/ml-course/cmake-build-debug,dir,581.7,400,delete,clion
+~/Documents/GitHub/diploma/.gradle,dir,521.3,822,delete,gradle cache
+~/Desktop/projects/telegram-bot/.turbo,dir,319.1,897,delete,turbo
+~/Documents/GitHub/lab3/dist,dir,127.3,75,delete,bundle output
+~/dev/api/.dart_tool,dir,350.6,518,delete,dart
+D:\Projects\mobile-app\.gradle,dir,290.9,849,delete,gradle cache
+~/Desktop/projects/lab3/.pytest_cache,dir,2.8,715,delete,pytest
+D:\Projects\blog\.nuxt,dir,121.0,898,delete,nuxt
+~/dev/mobile-app/build,dir,1794.8,37,delete,gradle build
+~/projects/web-shop/.nuxt,dir,335.5,844,delete,nuxt
+~/code/pet-project/cmake-build-debug,dir,820.8,366,delete,clion
+~/Documents/GitHub/diploma/.mypy_cache,dir,78.2,854,delete,mypy
+~\source\repos\hackathon-2024\.turbo,dir,490.5,13,delete,turbo
+~\source\repos\react-tutorial\Pods,dir,850.0,220,delete,cocoapods
+~\source\repos\portfolio\.turbo,dir,19.4,338,delete,turbo
+~/src/todo-app/.turbo,dir,307.1,457,delete,turbo
+~\source\repos\lab3\build,dir,231.5,873,delete,gradle build
+~/dev/landing/.svelte-kit,dir,139.0,754,delete,sveltekit
+~/code/api/.mypy_cache,dir,31.1,117,delete,mypy
+~/src/todo-app/.parcel-cache,dir,452.2,827,delete,parcel
+~/code/game-jam/.nuxt,dir,312.9,44,delete,nuxt
+~/Desktop/projects/api/__pycache__,dir,8.3,497,delete,python bytecode
+~/projects/lab3/.angular,dir,112.7,4,delete,angular cache
+~\source\repos\diploma\.svelte-kit,dir,119.3,697,delete,sveltekit
+~/Documents/GitHub/hackathon-2024/target,dir,3982.5,47,delete,rust build
+~/Documents/GitHub/todo-app/Pods,dir,1133.3,545,delete,cocoapods
+~/Documents/GitHub/ml-course/.dart_tool,dir,376.0,566,delete,dart
+~/Documents/GitHub/ml-course/dist,dir,130.2,486,delete,bundle output
+~/projects/pet-project/.dart_tool,dir,42.8,732,delete,dart
+~\source\repos\pet-project\.mypy_cache,dir,12.1,134,delete,mypy
+~/dev/pet-project/.next,dir,898.0,743,delete,next.js
+~\source\repos\hackathon-2024\dist,dir,160.6,464,delete,bundle output
+~/src/ml-course/dist,dir,107.5,38,delete,bundle output
+~/src/api/.angular,dir,711.6,209,delete,angular cache
+D:\Projects\blog\.pytest_cache,dir,4.8,84,delete,pytest
+~/projects/diploma/.nuxt,dir,211.7,264,delete,nuxt
+~/Documents/GitHub/mobile-app/build,dir,741.7,460,delete,gradle build
+~/dev/pet-project/obj,dir,79.7,512,delete,.net build
+D:\Projects\ml-course\.next,dir,326.6,639,delete,next.js
+D:\Projects\lab3\Pods,dir,1086.7,460,delete,cocoapods
+~/Documents/GitHub/mobile-app/dist,dir,79.9,86,delete,bundle output
+~/Desktop/projects/diploma/__pycache__,dir,3.5,4,delete,python bytecode
+~/code/web-shop/.mypy_cache,dir,83.8,787,delete,mypy
+~/projects/api/node_modules,dir,261.6,430,delete,npm deps
+~/dev/portfolio/node_modules,dir,927.0,815,delete,npm deps
+~/projects/lab3/node_modules,dir,760.9,230,delete,npm deps
+~/dev/chat-server/.next,dir,425.3,591,delete,next.js
+~/src/landing/.parcel-cache,dir,219.0,13,delete,parcel
+~\source\repos\api\dist,dir,119.4,171,delete,bundle output
+~/src/react-tutorial/obj,dir,279.4,341,delete,.net build
+D:\Projects\api\.parcel-cache,dir,133.9,746,delete,parcel
+~/projects/todo-app/.svelte-kit,dir,129.6,627,delete,sveltekit
+~/src/lab3/.pytest_cache,dir,0.3,446,delete,pytest
+~/code/blog/yarn-error.log,file,4.3,216,delete,log/dump
+~/Documents/GitHub/react-tutorial/core.79241,file,2492.4,317,delete,log/dump
+~/dev/game-jam/app.log.1,file,478.3,317,delete,log/dump
+D:\Projects\mobile-app\debug.log,file,348.6,402,delete,log/dump
+~/src/lab3/core.66957,file,2681.2,270,delete,log/dump
+~/code/api/core.25445,file,1560.7,93,delete,log/dump
+~\source\repos\mobile-app\debug.log,file,238.5,169,delete,log/dump
+D:\Projects\web-shop\npm-debug.log,file,0.7,278,delete,log/dump
+~\source\repos\landing\core.50784,file,556.2,500,delete,log/dump
+~/projects/telegram-bot/npm-debug.log,file,0.5,285,delete,log/dump
+~/Desktop/projects/chat-server/npm-debug.log,file,4.7,26,delete,log/dump
+~/Documents/GitHub/landing/debug.log,file,354.8,161,delete,log/dump
+~/dev/diploma/server.log,file,1444.4,164,delete,log/dump
+~/projects/react-tutorial/npm-debug.log,file,4.8,106,delete,log/dump
+~/Documents/GitHub/hackathon-2024/debug.log,file,311.5,287,delete,log/dump
+~/dev/portfolio/java_pid2480.hprof,file,738.6,279,delete,log/dump
+~/code/mobile-app/output.tmp,file,297.9,276,delete,log/dump
+~/code/landing/java_pid8254.hprof,file,2815.4,485,delete,log/dump
+~/Desktop/projects/portfolio/server.log,file,544.1,428,delete,log/dump
+D:\Projects\lab3\core.98638,file,487.4,339,delete,log/dump
+~\source\repos\api\server.log,file,389.0,338,delete,log/dump
+~/Documents/GitHub/lab3/npm-debug.log,file,3.6,437,delete,log/dump
+~\source\repos\mobile-app\server.log,file,1275.4,164,delete,log/dump
+~\source\repos\diploma\yarn-error.log,file,2.3,300,delete,log/dump
+~/Desktop/projects/diploma/output.tmp,file,27.8,349,delete,log/dump
+~/dev/react-tutorial/server.log,file,590.5,276,delete,log/dump
+~/code/diploma/core.57400,file,245.4,107,delete,log/dump
+~/Desktop/projects/mobile-app/java_pid4772.hprof,file,840.1,444,delete,log/dump
+~/Library/Logs/DiagnosticReports/Xcode_2024-03-01-101010.ips,file,440.1,27,delete,crash/lock/thumb
+~\AppData\Local\CrashDumps\Discord.exe.12344.dmp,file,779.9,50,delete,crash/lock/thumb
+~\AppData\Local\CrashDumps\steam.exe.4412.dmp,file,874.8,311,delete,crash/lock/thumb
+/cores/core.4567,file,188.3,451,delete,crash/lock/thumb
+~/Desktop/~$report.docx,file,574.5,13,delete,crash/lock/thumb
+~/Documents/~$thesis.docx,file,435.9,457,delete,crash/lock/thumb
+~/Desktop/.DS_Store,file,880.2,365,delete,crash/lock/thumb
+~\Pictures\Thumbs.db,file,612.4,198,delete,crash/lock/thumb
+~/Library/Logs/zoom.us/zoom_stdout_stderr.log,file,142.0,202,delete,crash/lock/thumb
+~/Downloads/Zoom.pkg,file,3216.4,328,delete,old installer
+~/Downloads/Docker.dmg,file,1769.3,173,delete,old installer
+~/Downloads/Docker.dmg,file,3306.0,3,review,fresh installer
+~/Downloads/googlechrome.dmg,file,3252.0,889,delete,old installer
+~/Downloads/googlechrome.dmg,file,568.7,4,review,fresh installer
+~/Downloads/Telegram.dmg,file,1007.5,667,delete,old installer
+~/Downloads/Figma.dmg,file,259.6,708,delete,old installer
+~/Downloads/Figma.dmg,file,1928.6,4,review,fresh installer
+~/Downloads/Discord.dmg,file,2810.8,174,delete,old installer
+~/Downloads/Steam.dmg,file,348.2,807,delete,old installer
+~/Downloads/python-3.12.4-macos11.pkg,file,3780.7,756,delete,old installer
+~/Downloads/node-v20.15.0.pkg,file,3375.3,690,delete,old installer
+~/Downloads/node-v20.15.0.pkg,file,2693.6,3,review,fresh installer
+~\Downloads\ChromeSetup.exe,file,2870.4,782,delete,old installer
+~\Downloads\ChromeSetup.exe,file,2452.5,6,review,fresh installer
+~\Downloads\DiscordSetup.exe,file,1500.2,744,delete,old installer
+~\Downloads\DiscordSetup.exe,file,1985.1,1,review,fresh installer
+~\Downloads\SteamSetup.exe,file,1390.9,844,delete,old installer
+~\Downloads\vlc-3.0.21-win64.exe,file,3472.8,527,delete,old installer
+~\Downloads\Git-2.45.2-64-bit.exe,file,1549.5,570,delete,old installer
+~\Downloads\Git-2.45.2-64-bit.exe,file,2195.2,6,review,fresh installer
+~\Downloads\python-3.12.4-amd64.exe,file,690.5,359,delete,old installer
+~\Downloads\python-3.12.4-amd64.exe,file,1261.5,5,review,fresh installer
+~\Downloads\VSCodeUserSetup-x64-1.90.2.exe,file,1197.3,762,delete,old installer
+~\Downloads\OBS-Studio-30.2-Windows-Installer.exe,file,3745.7,853,delete,old installer
+~\Downloads\OBS-Studio-30.2-Windows-Installer.exe,file,3830.1,0,review,fresh installer
+~/Downloads/Xcode_15.4.xip,file,277.4,175,delete,old installer
+~/Downloads/AnyDesk.dmg,file,1102.7,344,delete,old installer
+~/Downloads/Postman-osx-arm64.zip,file,2183.9,524,delete,old installer
+~/Downloads/Postman-osx-arm64.zip,file,2796.4,0,review,fresh installer
+~\Downloads\WhatsApp Installer.exe,file,3420.3,63,delete,old installer
+~\Downloads\jdk-21_windows-x64_bin.msi,file,1322.8,864,delete,old installer
+~/Downloads/PostgreSQL-16.3-1-osx.dmg,file,1117.1,734,delete,old installer
+~/Downloads/Unity Hub.dmg,file,1078.5,894,delete,old installer
+~/Downloads/Unity Hub.dmg,file,989.5,5,review,fresh installer
+~\Downloads\7z2407-x64.exe,file,981.6,835,delete,old installer
+~\Downloads\Spotify.exe,file,2294.6,632,delete,old installer
+~/Downloads/ubuntu-24.04-desktop-amd64.iso,file,5295.2,300,delete,disk image
+~/Downloads/Win11_23H2_Russian_x64.iso,file,665.7,500,delete,disk image
+~/Downloads/debian-12.5.0-amd64-netinst.iso,file,6018.2,30,review,disk image
+~/Downloads/macOS Sonoma.iso,file,1162.9,10,review,disk image
+~/Downloads/kali-linux-2024.2.iso,file,3196.5,200,delete,disk image
+~/.Trash/Untitled.png,dir,1602.5,187,delete,in trash
+~/.Trash/project.pdf,dir,2741.7,29,delete,in trash
+~/.Trash/old.mov,dir,2224.7,2,delete,in trash
+~/.Trash/backup.png,file,1113.1,122,delete,in trash
+~/.Trash/Screenshot 2024-04-10.mov,file,2840.6,97,delete,in trash
+~/.Trash/video,file,2932.5,11,delete,in trash
+~/.Trash/project,dir,580.2,143,delete,in trash
+~/.Trash/video.mov,file,1224.8,193,delete,in trash
+~/.Trash/old.pdf,file,3038.4,192,delete,in trash
+~/.Trash/backup.zip,dir,3488.7,53,delete,in trash
+~/.Trash/old,file,3849.9,92,delete,in trash
+C:\$Recycle.Bin\S-1-5-21-180014-1001\$R402964.zip,file,1124.5,91,delete,recycle bin
+C:\$Recycle.Bin\S-1-5-21-811653-1001\$R137004.zip,file,1025.3,153,delete,recycle bin
+C:\$Recycle.Bin\S-1-5-21-475678-1001\$R582709.zip,file,721.2,37,delete,recycle bin
+C:\$Recycle.Bin\S-1-5-21-892888-1001\$R124733.zip,file,1530.1,124,delete,recycle bin
+C:\$Recycle.Bin\S-1-5-21-407715-1001\$R215144.zip,file,1000.7,126,delete,recycle bin
+~/Movies/Final Cut Pro/My Library.fcpbundle/Project/Render Files,dir,24457.3,197,delete,fcp render
+~/Movies/Final Cut Pro/My Library.fcpbundle/Project/Transcoded Media,dir,2667.9,155,delete,fcp render
+~/Movies/Final Cut Pro/My Library.fcpbundle/Project/Analysis Files,dir,6694.7,359,delete,fcp render
+~/Downloads/Telegram Desktop/trip-to-sochi.mkv,file,23195.0,893,review,big video
+~/Downloads/Telegram Desktop/obs-recording-2024-03-01.mp4,file,1847.4,273,review,big video
+~/Desktop/Screen Recording 2024-05-12 at 14.03.11.mov,file,14253.0,978,review,big video
+~/Downloads/Telegram Desktop/lecture-07.mkv,file,6731.5,1293,review,big video
+~\Videos\wedding-raw.mov,file,1031.4,413,review,big video
+~/Movies/gameplay.mp4,file,21376.1,1174,review,big video
+~/Downloads/zoom_meeting_2023.mkv,file,11102.3,735,review,big video
+~/Movies/drone-footage.mov,file,13021.2,802,review,big video
+~/Desktop/birthday.mov,file,7197.2,485,review,big video
+~\Videos\concert.mp4,file,18461.2,1324,review,big video
+~/Downloads/interview.mp4,file,6377.7,411,review,big video
+~/Downloads/tutorial-final.mov,file,13317.8,1389,review,big video
+~/Movies/video_2023-09-14_21-03-55.mp4,file,11677.4,669,review,big video
+~/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw,file,32950.5,555,review,vm disk
+~/VirtualBox VMs/Ubuntu/Ubuntu.vdi,file,22767.1,404,review,vm disk
+~\AppData\Local\Docker\wsl\data\ext4.vhdx,file,45707.4,388,review,vm disk
+~/Parallels/Windows 11.pvm,file,50976.5,482,review,vm disk
+~/Library/Containers/com.utmapp.UTM/Data/Documents/Kali.utm,file,15148.8,455,review,vm disk
+~\VirtualBox VMs\Win10\Win10.vdi,file,31634.7,467,review,vm disk
+~/Library/Application Support/MobileSync/Backup/00008145-004134F968,dir,115742.0,168,review,iphone backup
+~/Library/Application Support/MobileSync/Backup/00008085-00128231D22,dir,88971.5,1213,review,iphone backup
+~/Library/Application Support/MobileSync/Backup/00008019-00FD256930,dir,78033.2,618,review,iphone backup
+~/Library/Application Support/MobileSync/Backup/00008116-0014698CD5E,dir,47116.6,680,review,iphone backup
+~/Library/Application Support/MobileSync/Backup/00008176-0013F8CBC46,dir,92666.1,628,review,iphone backup
+~/Library/Application Support/MobileSync/Backup/00008124-004D12DA59,dir,40187.5,663,review,iphone backup
+~\AppData\Roaming\Apple Computer\MobileSync\Backup\00008110-001A2B3C4D5E,dir,60000,400,review,iphone backup
+~/Library/Developer/Xcode/Archives/2024-03-01/MyApp 2024-03-01 10.12.33.xcarchive,dir,763.9,586,review,xcode archive
+~/Library/Developer/Xcode/Archives/2024-03-01/Game 2023-11-20 18.40.01.xcarchive,dir,717.2,431,review,xcode archive
+~/projects/landing/venv,dir,207.1,866,review,virtualenv
+~/projects/mobile-app/.venv,dir,3137.3,711,review,virtualenv
+~/dev/api/env,dir,3409.8,778,review,virtualenv
+~/src/ml-course/venv,dir,913.7,44,review,virtualenv
+~\source\repos\landing\env,dir,627.7,869,review,virtualenv
+~/Documents/GitHub/ml-course/venv,dir,605.2,84,review,virtualenv
+~/code/react-tutorial/.venv,dir,1964.2,285,review,virtualenv
+~/code/chat-server/env,dir,3777.1,815,review,virtualenv
+D:\Projects\blog\env,dir,1839.0,421,review,virtualenv
+~/dev/portfolio/env,dir,2984.1,171,review,virtualenv
+~\source\repos\telegram-bot\.venv,dir,2352.3,725,review,virtualenv
+~/Documents/GitHub/todo-app/env,dir,390.4,804,review,virtualenv
+~/src/ml-course/.venv,dir,3879.6,744,review,virtualenv
+~/dev/ml-course/venv,dir,1790.6,716,review,virtualenv
+~/dev/hackathon-2024/env,dir,3433.4,474,review,virtualenv
+~/code/chat-server/.venv,dir,3664.5,760,review,virtualenv
+~/dev/web-shop/.venv,dir,2709.5,712,review,virtualenv
+~/models/llama-3-8b-instruct.Q4_K_M.gguf,file,4578.1,369,review,ai model
+~/.cache/huggingface/hub/models--stabilityai--stable-diffusion-xl-base-1.0,dir,12947.8,229,review,ai model
+~/.ollama/models,dir,10572.9,334,review,ai model
+~/.cache/huggingface/hub/models--openai--whisper-large-v3,dir,2856.1,211,review,ai model
+~/ComfyUI/models/checkpoints/sd_xl_base_1.0.safetensors,file,6668.6,63,review,ai model
+~\.ollama\models,dir,6521.2,319,review,ai model
+~/Downloads/mistral-7b-instruct-v0.2.Q5_K_M.gguf,file,4698.3,399,review,ai model
+~/Downloads/photos-2022.zip,file,9188.9,976,review,old download
+~/Downloads/archive.zip,file,4158.6,135,review,old download
+~/Downloads/project-final.zip,file,9090.5,1329,review,old download
+~/Downloads/lecture-recordings,dir,4267.3,364,review,old download
+~/Downloads/Telegram Desktop,dir,5284.9,528,review,old download
+~/Downloads/drive-download-20230911T101010Z-001,dir,9692.0,1397,review,old download
+~/Downloads/dataset.tar.gz,file,13231.9,1336,review,old download
+~\Downloads\WhatsApp Video 2023-08-19.mp4,file,16657.6,662,review,old download
+~/Downloads/backup-old-laptop,dir,7789.9,993,review,old download
+~/Downloads/Takeout,dir,15811.4,1192,review,old download
+~/Desktop/report copy.pdf,file,302.6,671,review,looks like a copy
+~/Documents/presentation (1).pptx,file,483.5,622,review,looks like a copy
+~/Downloads/rust-book(1).pdf,file,191.0,633,review,looks like a copy
+~/Desktop/photo copy 2.jpg,file,510.2,670,review,looks like a copy
+~/Pictures/wallpaper (2).png,file,91.7,487,review,looks like a copy
+~\Documents\resume - Copy.docx,file,538.6,380,review,looks like a copy
+~/Music/album copy.flac,file,213.1,552,review,looks like a copy
+C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077,dir,10106.9,148,review,game
+~/Library/Application Support/Steam/steamapps/common/Cyberpunk 2077,dir,28874.7,531,review,game
+C:\Program Files (x86)\Steam\steamapps\common\Hades,dir,28573.1,667,review,game
+~/Library/Application Support/Steam/steamapps/common/Hades,dir,34451.7,250,review,game
+C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive,dir,18480.1,399,review,game
+~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive,dir,86621.3,557,review,game
+C:\Program Files (x86)\Steam\steamapps\common\Dota 2,dir,2893.7,765,review,game
+~/Library/Application Support/Steam/steamapps/common/Dota 2,dir,29319.3,734,review,game
+C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3,dir,68810.9,395,review,game
+~/Library/Application Support/Steam/steamapps/common/Baldurs Gate 3,dir,86788.9,446,review,game
+C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley,dir,85906.8,681,review,game
+~/Library/Application Support/Steam/steamapps/common/Stardew Valley,dir,16788.5,802,review,game
+~/Documents/University/thesis.docx,file,33.4,870,keep,document
+~\Documents\University\thesis.docx,file,35.0,125,keep,document
+~/Documents/Taxes/2023 tax return.pdf,file,0.3,752,keep,document
+~\Documents\Taxes\2023 tax return.pdf,file,18.9,2392,keep,document
+~/Documents/Passport scan.pdf,file,38.2,1267,keep,document
+~\Documents\Passport scan.pdf,file,32.3,514,keep,document
+~/Documents/CV.pdf,file,30.7,1628,keep,document
+~\Documents\CV.pdf,file,37.2,281,keep,document
+~/Documents/contract.pdf,file,21.1,1804,keep,document
+~\Documents\contract.pdf,file,18.8,691,keep,document
+~/Documents/notes.md,file,38.7,2463,keep,document
+~\Documents\notes.md,file,36.8,182,keep,document
+~/Documents/Personal Budget.xlsx,file,21.9,391,keep,document
+~\Documents\Personal Budget.xlsx,file,31.4,1327,keep,document
+~/Documents/Work/Q3 report.pptx,file,34.4,62,keep,document
+~\Documents\Work\Q3 report.pptx,file,0.8,2076,keep,document
+~/Documents/Курсовая.docx,file,9.0,2051,keep,document
+~\Documents\Курсовая.docx,file,37.6,2400,keep,document
+~/Documents/Диплом/диплом_финал.docx,file,26.5,307,keep,document
+~\Documents\Диплом\диплом_финал.docx,file,39.6,1918,keep,document
+~/Documents/Медицина/анализы.pdf,file,34.4,1835,keep,document
+~\Documents\Медицина\анализы.pdf,file,22.1,2336,keep,document
+~/Documents/insurance.pdf,file,19.5,2447,keep,document
+~\Documents\insurance.pdf,file,31.4,1708,keep,document
+~/Documents/Apartment/lease agreement.pdf,file,28.1,2210,keep,document
+~\Documents\Apartment\lease agreement.pdf,file,31.7,1737,keep,document
+~/Documents/Bank/statements 2024.pdf,file,22.6,2218,keep,document
+~\Documents\Bank\statements 2024.pdf,file,6.2,2231,keep,document
+~/Documents/Resume.pages,file,36.3,1433,keep,document
+~\Documents\Resume.pages,file,15.0,413,keep,document
+~/Documents/Novel/chapter-01.md,file,21.2,1770,keep,document
+~\Documents\Novel\chapter-01.md,file,21.2,655,keep,document
+~/Pictures/Photos Library.photoslibrary,dir,16452.5,2419,keep,memories
+~/Pictures/Vacation 2023,dir,39482.7,2358,keep,memories
+~/Pictures/Wedding,dir,54400.9,150,keep,memories
+~/Desktop/family.jpg,file,13070.0,529,keep,memories
+~/Pictures/IMG_4521.HEIC,file,26736.5,2883,keep,memories
+~\Pictures\Camera Roll,dir,34464.8,2200,keep,memories
+~\OneDrive\Pictures,dir,7701.5,309,keep,memories
+~/Pictures/Lightroom/Lightroom Catalog.lrcat,file,48775.3,990,keep,memories
+~/Music/Music/Media.localized,dir,67282.8,1901,keep,memories
+~/Music/Logic/my song.logicx,dir,57634.3,2639,keep,memories
+~/Music/GarageBand/demo.band,dir,2274.5,2067,keep,memories
+~\Music\iTunes,dir,12852.3,2123,keep,memories
+~/Movies/iMovie Library.imovielibrary,dir,65844.6,29,keep,memories
+~/Movies/Family Videos/first steps.mov,file,43656.9,1148,keep,memories
+~/src/telegram-bot/assets,dir,157.1,404,keep,source code
+~/projects/telegram-bot/.env,file,166.4,69,keep,source code
+~\source\repos\landing\main.py,file,261.9,837,keep,source code
+~/dev/pet-project/tests,dir,250.0,480,keep,source code
+~/Desktop/projects/diploma/README.md,file,79.3,6,keep,source code
+~\source\repos\diploma\package.json,file,26.2,347,keep,source code
+~/Desktop/projects/todo-app/.git,dir,210.0,830,keep,source code
+~/src/game-jam/app,dir,179.2,37,keep,source code
+~/projects/game-jam/requirements.txt,file,261.1,356,keep,source code
+~/code/landing/package.json,file,227.9,656,keep,source code
+D:\Projects\hackathon-2024\tests,dir,197.0,854,keep,source code
+~/dev/web-shop/requirements.txt,file,151.1,766,keep,source code
+~/code/hackathon-2024/.git,dir,165.4,100,keep,source code
+~/code/diploma/lib,dir,39.6,299,keep,source code
+D:\Projects\react-tutorial\tests,dir,269.0,358,keep,source code
+D:\Projects\blog\requirements.txt,file,98.6,122,keep,source code
+~\source\repos\game-jam\app,dir,273.5,181,keep,source code
+~/Documents/GitHub/web-shop/Cargo.toml,file,3.8,385,keep,source code
+~/src/web-shop/package.json,file,234.0,752,keep,source code
+~/Desktop/projects/lab3/src,dir,130.1,864,keep,source code
+~/projects/ml-course/assets,dir,156.1,589,keep,source code
+~/src/blog/.env,file,186.8,758,keep,source code
+~/Desktop/projects/pet-project/src,dir,296.1,396,keep,source code
+~/Documents/GitHub/pet-project/.git,dir,271.1,552,keep,source code
+~/src/telegram-bot/package.json,file,31.7,74,keep,source code
+~/dev/telegram-bot/docs,dir,268.3,300,keep,source code
+~/code/ml-course/README.md,file,2.9,73,keep,source code
+~/projects/game-jam/app,dir,40.5,894,keep,source code
+D:\Projects\react-tutorial\README.md,file,135.6,591,keep,source code
+~/dev/api/tests,dir,214.7,327,keep,source code
+~/.ssh,dir,6.5,974,keep,keys and secrets
+~/.ssh/id_ed25519,file,31.0,1292,keep,keys and secrets
+~/.gnupg,dir,45.7,771,keep,keys and secrets
+~/Library/Keychains/login.keychain-db,file,35.7,713,keep,keys and secrets
+~/Documents/passwords.kdbx,file,24.0,1924,keep,keys and secrets
+~/.aws/credentials,file,26.2,1161,keep,keys and secrets
+~/.config/gh/hosts.yml,file,9.2,855,keep,keys and secrets
+~/.kube/config,file,18.0,1760,keep,keys and secrets
+~\.ssh\id_rsa,file,3.5,1083,keep,keys and secrets
+~/.password-store,dir,8.9,599,keep,keys and secrets
+~/.zshrc,dir,6.1,852,keep,keys and secrets
+~/.gitconfig,file,17.4,1664,keep,keys and secrets
+~\AppData\Roaming\Microsoft\Protect,dir,12.7,1983,keep,keys and secrets
+~/Library/Application Support/1Password,dir,2.3,944,keep,keys and secrets
+~/Library/Mobile Documents/com~apple~CloudDocs,dir,16212.7,226,keep,personal data
+~/Library/Messages,dir,13137.2,909,keep,personal data
+~/Library/Mail,dir,8823.0,39,keep,personal data
+~/Library/Containers/com.apple.Notes,dir,15484.4,31,keep,personal data
+~/Library/Fonts,dir,577.9,12,keep,personal data
+~/Library/Application Support/Telegram Desktop/tdata,dir,3489.6,797,keep,personal data
+~\AppData\Roaming\Telegram Desktop\tdata,dir,12695.4,467,keep,personal data
+~/Library/Application Support/minecraft/saves,dir,9381.4,1724,keep,personal data
+~\AppData\Roaming\.minecraft\saves,dir,15619.3,1464,keep,personal data
+~/Library/Application Support/Steam/userdata,dir,10576.2,439,keep,personal data
+~\Saved Games,dir,761.8,1586,keep,personal data
+~/Library/Application Support/Google/Chrome/Default/Bookmarks,file,14374.7,116,keep,personal data
+~/Obsidian Vault,dir,16291.6,247,keep,personal data
+~/Zotero,dir,6316.5,983,keep,personal data
+~/Library/Application Support/obsidian,dir,15984.8,1552,keep,personal data
+~\AppData\Roaming\Microsoft\Windows\Start Menu,dir,2823.4,1839,keep,personal data
+~/Library/Preferences,dir,1828.6,630,keep,personal data
+~/Library/Application Support/AddressBook,dir,9033.4,836,keep,personal data
+~/Library/Calendars,dir,7078.2,1245,keep,personal data
+~\OneDrive\Documents,dir,18093.0,1261,keep,personal data
+~/Dropbox,dir,16652.1,1986,keep,personal data
+~/Google Drive,dir,17039.1,204,keep,personal data
+/Applications/Xcode.app,dir,10334.0,646,keep,system or app
+/Applications/Visual Studio Code.app,dir,24276.8,774,keep,system or app
+/Applications/Telegram.app,dir,24034.9,657,keep,system or app
+/Applications/Spotify.app,dir,22133.8,87,keep,system or app
+/Applications/Adobe Photoshop 2025,dir,1985.6,108,keep,system or app
+/System/Library,dir,6343.7,313,keep,system or app
+/usr/bin,dir,1627.4,265,keep,system or app
+C:\Windows\System32,dir,16812.2,223,keep,system or app
+C:\Program Files\Microsoft Office,dir,11489.8,282,keep,system or app
+C:\Program Files\Git,dir,8198.1,633,keep,system or app
+C:\Windows\WinSxS,dir,16680.3,619,keep,system or app
+C:\pagefile.sys,file,1771.5,30,keep,system or app
+C:\hiberfil.sys,file,18926.2,454,keep,system or app
+/Library/Application Support/Apple,dir,22043.4,350,keep,system or app
+C:\ProgramData\Microsoft,dir,10239.1,590,keep,system or app
+/opt/homebrew/bin,dir,27387.8,458,keep,system or app
+~\AppData\Local\Programs\Microsoft VS Code,dir,953.8,809,keep,system or app
+~/Desktop/Taxes/resume-15.pdf,file,87.6,1274,keep,document
+~/Desktop/Курсы/отчёт-22.pdf,file,284.2,1840,keep,document
+~/Desktop/Projects/заявление-2.md,file,124.2,2702,keep,document
+~\OneDrive\Documents\Personal\letter-14.xlsx,file,225.7,1983,keep,document
+~/Desktop/Personal/draft-16.pdf,file,163.1,46,keep,document
+~/Desktop/Personal,dir,4206.8,41,keep,documents folder
+~\Documents\Personal\plan-4.pages,file,23.5,1281,keep,document
+~\Documents\Personal,dir,4018.0,1424,keep,documents folder
+~\Documents\Курсы\презентация-2.pptx,file,120.9,2003,keep,document
+~/Documents/Scans/отчёт-20.docx,file,236.7,2999,keep,document
+~/Desktop/Health/invoice-10.pages,file,47.2,1043,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Health/letter-12.numbers,file,206.1,545,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Health,dir,13069.8,1034,keep,documents folder
+~\Documents\Family\invoice-25.pdf,file,286.5,1193,keep,document
+~/Desktop/University/презентация-19.pptx,file,9.6,2447,keep,document
+~/Dropbox/Курсы/отчёт-14.md,file,192.9,901,keep,document
+~/Dropbox/Projects/конспект-26.xlsx,file,291.9,1302,keep,document
+~\Documents\Work\презентация-1.docx,file,226.0,571,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Personal/invoice-3.pdf,file,85.2,165,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Personal,dir,949.9,757,keep,documents folder
+~/Documents/Учёба/lecture-5.docx,file,102.1,2350,keep,document
+~/Documents/Учёба,dir,1026.8,876,keep,documents folder
+~/Library/Mobile Documents/com~apple~CloudDocs/Scans/lecture-3.md,file,206.4,1559,keep,document
+~\OneDrive\Documents\Учёба\resume-6.docx,file,139.2,2649,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/University/invoice-10.pages,file,36.1,2425,keep,document
+~/Dropbox/Projects/lecture-13.odt,file,181.8,987,keep,document
+~/Documents/Taxes/letter-19.xlsx,file,128.7,337,keep,document
+~/Documents/Taxes,dir,19700.4,841,keep,documents folder
+~/Dropbox/University/resume-14.pages,file,34.9,1201,keep,document
+~\OneDrive\Documents\Health\invoice-10.key,file,293.8,2970,keep,document
+~\OneDrive\Documents\Health,dir,8615.4,48,keep,documents folder
+~/Dropbox/Учёба/plan-4.pages,file,73.1,1334,keep,document
+~/Desktop/Курсы/отчёт-17.odt,file,294.1,1601,keep,document
+~/Documents/Учёба/invoice-9.docx,file,108.2,70,keep,document
+~/Dropbox/Projects/презентация-20.txt,file,64.9,2132,keep,document
+~/Documents/Contracts/resume-27.txt,file,185.5,917,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Work/lecture-18.key,file,42.8,1397,keep,document
+~/Documents/Taxes/letter-9.md,file,211.7,744,keep,document
+~/Documents/Health/конспект-12.key,file,288.1,859,keep,document
+~/Documents/Health,dir,659.8,407,keep,documents folder
+~/Documents/Работа/отчёт-12.key,file,71.2,411,keep,document
+~\OneDrive\Documents\Курсы\final-30.pages,file,68.8,1370,keep,document
+~\OneDrive\Documents\Курсы,dir,14347.0,1440,keep,documents folder
+~/Documents/Scans/конспект-29.pptx,file,67.8,2735,keep,document
+~/Documents/Scans,dir,5393.0,669,keep,documents folder
+~\OneDrive\Documents\Работа\презентация-19.md,file,295.4,2700,keep,document
+~\OneDrive\Documents\Contracts\lecture-3.pages,file,148.6,2938,keep,document
+~/Desktop/Personal/notes-15.key,file,150.5,1651,keep,document
+~/Library/Mobile Documents/com~apple~CloudDocs/Personal/lecture-28.pptx,file,254.9,929,keep,document
+~/Desktop/Учёба/final-10.pages,file,274.3,1939,keep,document
+~/Pictures/Photos/Kids,dir,56607.6,910,keep,photos
+~/Pictures/photo_987.jpg,file,16.8,2299,keep,photos
+~/Desktop/Фото/Выпускной,dir,35109.1,178,keep,photos
+~\OneDrive\Pictures\Camera Roll\DSC49013.JPG,file,26.9,2178,keep,photos
+~/Pictures/photo_140.jpg,file,26.9,3075,keep,photos
+~/Pictures/Photos/DSC21551.JPG,file,4.1,2526,keep,photos
+~/Pictures/Photos/Свадьба,dir,11579.9,2089,keep,photos
+~\Pictures\Wedding,dir,38739.8,1084,keep,photos
+~\Pictures\Family 2012,dir,29548.1,928,keep,photos
+~/Desktop/Фото/IMG_4270.HEIC,file,9.1,1268,keep,photos
+~/Pictures/DSC60054.JPG,file,4.0,2545,keep,photos
+~/Pictures/Отпуск 2017/Family 2016,dir,13249.7,1116,keep,photos
+~/Pictures/Family 2017,dir,7056.1,2103,keep,photos
+~/Desktop/Фото/DSC06065.JPG,file,25.6,697,keep,photos
+~/Pictures/Отпуск 2022/photo_287.jpg,file,25.8,896,keep,photos
+~/Pictures/DSC49728.JPG,file,19.4,1808,keep,photos
+~/Pictures/Отпуск 2024/Kids,dir,10419.0,3181,keep,photos
+~/Desktop/Фото/PXL_54203480.jpg,file,12.2,414,keep,photos
+~/Desktop/Фото/Kids,dir,46119.2,597,keep,photos
+~/Pictures/IMG_7290.HEIC,file,27.4,2852,keep,photos
+~/Pictures/Свадьба,dir,18174.0,2558,keep,photos
+~\OneDrive\Pictures\Camera Roll\Family 2013,dir,53759.7,1379,keep,photos
+~/Pictures/photo_664.jpg,file,26.1,3482,keep,photos
+~/Pictures/Kids,dir,46734.9,306,keep,photos
+~/Pictures/Отпуск 2021/Выпускной,dir,9143.1,2024,keep,photos
+~/Pictures/Family 2012,dir,12698.2,852,keep,photos
+~/projects/api/app/models,dir,1769.9,405,keep,project files
+~/Desktop/projects/diploma/design,dir,337.2,899,keep,project files
+~/code/blog/docs,dir,680.6,56,keep,project files
+~\source\repos\pet-project\design,dir,2636.3,189,keep,project files
+~/Documents/GitHub/blog/.github,dir,2635.8,697,keep,project files
+~/dev/react-tutorial/.github,dir,1978.7,85,keep,project files
+~/dev/telegram-bot/design,dir,184.0,77,keep,project files
+~\source\repos\landing\migrations,dir,2232.6,4,keep,project files
+D:\Projects\diploma\docs,dir,2611.3,664,keep,project files
+~/src/telegram-bot/docs,dir,1493.0,666,keep,project files
+~/projects/diploma/app/models,dir,1853.8,804,keep,project files
+~/dev/blog/src/components,dir,2993.1,58,keep,project files
+~/code/todo-app/assets/images,dir,642.3,101,keep,project files
+~/Desktop/projects/react-tutorial/public/videos,dir,2189.2,492,keep,project files
+~/.ssh/config,file,1880.5,900,keep,settings and saves
+~/.ssh/known_hosts,file,164.5,1794,keep,settings and saves
+~/.ssh/id_ed25519.pub,file,441.8,628,keep,settings and saves
+~/.bashrc,dir,772.0,584,keep,settings and saves
+~/.config/nvim,dir,1408.0,1043,keep,settings and saves
+~/.config/fish,dir,544.8,1010,keep,settings and saves
+~/.vimrc,dir,28.6,1002,keep,settings and saves
+~/.config/git/config,file,482.5,334,keep,settings and saves
+~/.docker/config.json,file,1468.7,940,keep,settings and saves
+~\.ssh\config,file,1510.7,463,keep,settings and saves
+~/.local/share/fonts,dir,169.1,1497,keep,settings and saves
+~/.config/Code/User/settings.json,file,743.9,1378,keep,settings and saves
+~/Library/Application Support/Firefox/Profiles,dir,1715.4,1591,keep,settings and saves
+~/Library/Application Support/Google/Chrome/Default/Login Data,file,680.8,125,keep,settings and saves
+~/Library/Thunderbird/Profiles,dir,1498.0,190,keep,settings and saves
+~\AppData\Roaming\Mozilla\Firefox\Profiles,dir,237.1,713,keep,settings and saves
+~\AppData\Local\Google\Chrome\User Data\Default\Bookmarks,file,50.3,1504,keep,settings and saves
+~/Library/Application Support/Code/User,dir,732.0,161,keep,settings and saves
+~/Library/Application Support/JetBrains/IntelliJIdea2024.1,file,607.2,1000,keep,settings and saves
+~/Library/Containers/com.apple.Safari/Data/Library/Safari/Bookmarks.plist,file,758.6,1490,keep,settings and saves
+~/Library/Group Containers/group.com.apple.notes,file,82.6,787,keep,settings and saves
+~/Library/Application Support/discord/Local Storage,dir,651.0,691,keep,settings and saves
+~\AppData\Roaming\Telegram Desktop\tdata\user_data,dir,1696.3,1544,keep,settings and saves
+~/Library/Application Support/Steam/userdata/123456/remote,dir,144.3,978,keep,settings and saves
+~\Documents\My Games,dir,1951.6,654,keep,settings and saves
+~\AppData\LocalLow\Team Cherry\Hollow Knight,dir,1544.3,886,keep,settings and saves
+~/Library/Application Support/Minecraft/saves/New World,dir,596.1,1868,keep,settings and saves
+/System/Library/Frameworks,dir,21485.3,763,keep,system or app
+/System/Library/CoreServices,dir,4672.7,862,keep,system or app
+/System/Applications/Safari.app,dir,15362.8,615,keep,system or app
+/usr/lib,dir,17751.1,892,keep,system or app
+/usr/local/bin,dir,32362.5,55,keep,system or app
+/Library/Frameworks,dir,4190.1,566,keep,system or app
+/Library/Fonts,dir,28241.1,402,keep,system or app
+/private/etc,dir,13950.3,547,keep,system or app
+/bin,dir,26800.8,674,keep,system or app
+/sbin,dir,4587.9,293,keep,system or app
+C:\Windows\System32\drivers,dir,38654.7,31,keep,system or app
+C:\Windows\Fonts,dir,13500.1,42,keep,system or app
+C:\Windows\SysWOW64,dir,23329.0,786,keep,system or app
+C:\Windows\System32\config,dir,4564.2,546,keep,system or app
+C:\Windows\explorer.exe,file,27793.8,109,keep,system or app
+C:\Program Files\Common Files,dir,29054.8,605,keep,system or app
+C:\Program Files (x86)\Microsoft,dir,24342.9,606,keep,system or app
+C:\Program Files\NVIDIA Corporation,dir,32349.7,539,keep,system or app
+C:\Windows\Installer,dir,32508.2,514,keep,system or app
+C:\Boot,dir,25262.5,703,keep,system or app
+/Applications/Microsoft Word.app,dir,39434.8,295,keep,system or app
+/Applications/Google Chrome.app,dir,37352.1,602,keep,system or app
+/Applications/Docker.app,dir,165.0,295,keep,system or app
+/Applications/Utilities/Terminal.app,dir,10873.3,8,keep,system or app
+C:\Program Files\Mozilla Firefox,dir,14014.9,226,keep,system or app
+C:\Program Files\Docker\Docker,dir,16347.9,222,keep,system or app
+~\AppData\Local\Programs\Python\Python312,dir,27889.4,46,keep,system or app
+~/Library/Caches/com.github.atom,dir,24.1,17,delete,small cache
+~\AppData\Local\Temp\wct9598.tmp,file,2.7,199,delete,small temp
+~/Library/Caches/com.yandex.desktop.disk/fsCachedData,dir,18.2,68,delete,small cache
+~\AppData\Local\Temp\.net1761.tmp,file,1.5,132,delete,small temp
+~/Library/Caches/com.plausiblelabs.crashreporter,dir,9.0,16,delete,small cache
+~\AppData\Local\Temp\msohtmlclip5355.tmp,file,1.5,177,delete,small temp
+~\AppData\Local\Temp\wct7677.tmp,file,3.7,152,delete,small temp
+~/Library/Caches/com.apple.nsurlsessiond,dir,21.7,2,delete,small cache
+~\AppData\Local\Temp\~DF7119.tmp,file,4.8,143,delete,small temp
+~/Library/Caches/com.todesktop.230313mzl4w4u92/fsCachedData,dir,16.8,36,delete,small cache
+~\AppData\Local\Temp\.net481.tmp,file,4.2,177,delete,small temp
+~/Library/Caches/org.python.python/fsCachedData,dir,2.5,99,delete,small cache
+~\AppData\Local\Temp\~DF4626.tmp,file,0.8,122,delete,small temp
+~/Library/Caches/com.microsoft.edgemac,dir,22.1,54,delete,small cache
+~\AppData\Local\Temp\msohtmlclip5275.tmp,file,0.2,239,delete,small temp
+~/Library/Caches/com.plausiblelabs.crashreporter/fsCachedData,dir,1.5,47,delete,small cache
+~\AppData\Local\Temp\.net2729.tmp,file,1.5,204,delete,small temp
+~/Library/Caches/CloudKit/fsCachedData,dir,0.2,56,delete,small cache
+~\AppData\Local\Temp\~DF9930.tmp,file,0.7,30,delete,small temp
+~/Library/Caches/com.microsoft.edgemac/fsCachedData,dir,12.7,66,delete,small cache
+~\AppData\Local\Temp\msohtmlclip6046.tmp,file,2.2,288,delete,small temp
+~/Library/Caches/org.python.python,dir,36.5,55,delete,small cache
+~\AppData\Local\Temp\msohtmlclip1859.tmp,file,1.8,194,delete,small temp
+~/Library/Caches/com.raycast.macos/fsCachedData,dir,31.1,65,delete,small cache
+~\AppData\Local\Temp\msohtmlclip730.tmp,file,4.6,212,delete,small temp
+~/Library/Caches/com.yandex.desktop.disk,dir,37.4,23,delete,small cache
+~\AppData\Local\Temp\msohtmlclip5336.tmp,file,2.6,137,delete,small temp
+~/Library/Caches/com.apple.nsurlsessiond/fsCachedData,dir,20.5,99,delete,small cache
+~\AppData\Local\Temp\msohtmlclip6707.tmp,file,0.8,1,delete,small temp
+~/Library/Caches/CloudKit,dir,7.3,79,delete,small cache
+~\AppData\Local\Temp\.net3939.tmp,file,3.6,285,delete,small temp
+~\AppData\Local\Temp\tmp1074.tmp,file,1.2,185,delete,small temp
+~\AppData\Local\Temp\wct4947.tmp,file,3.4,265,delete,small temp
+~\AppData\Local\Temp\~DF4487.tmp,file,3.1,262,delete,small temp
+~\AppData\Local\Temp\.net920.tmp,file,0.8,216,delete,small temp

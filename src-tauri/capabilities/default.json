@@ -1,0 +1,21 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "What the Disk Invaders window is allowed to do",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "opener:allow-reveal-item-in-dir",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        { "url": "x-apple.systempreferences:*" },
+        { "url": "ms-settings:*" },
+        { "url": "https://github.com/*" },
+        { "url": "https://ollama.com/*" }
+      ]
+    }
+  ]
+}

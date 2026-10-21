@@ -1,0 +1,51 @@
+path,kind,size_mb,age_days,label,note
+~/code/my-new-app/node_modules,dir,640,25,delete,unseen project
+~/work/backend/target,dir,3100,60,delete,rust build in a new folder
+~/Library/Caches/com.yandex.browser,dir,780,2,delete,unseen browser cache
+~\AppData\Local\Temp\installer_8812,dir,95,40,delete,windows temp
+~/Downloads/Firefox 128.0.dmg,file,130,120,delete,old installer
+~/Library/Logs/Yandex,dir,35,10,delete,logs
+~/sandbox/flask-demo/__pycache__,dir,0.4,30,delete,python bytecode
+~/Library/Application Support/Zoom/Cache,dir,210,5,delete,electron cache
+~\AppData\Roaming\Microsoft Teams\GPUCache,dir,40,3,delete,electron cache
+~/Desktop/course/android/app/build,dir,820,200,delete,gradle build
+~/code/landing-v2/.next,dir,260,14,delete,next.js cache
+~/.cache/pip/http-v2,dir,900,30,delete,pip cache
+~\Downloads\ZoomInstallerFull.exe,file,15,300,delete,old installer
+~/Library/Developer/Xcode/DerivedData/MyGame-abcdefg,dir,2400,12,delete,xcode
+~/.Trash/Screenshot 2025-02-03 at 10.11.12.png,file,2,20,delete,trash
+~\AppData\Local\CrashDumps\chrome.exe.7712.dmp,file,240,60,delete,crash dump
+~/projects/old-site/npm-debug.log,file,0.2,800,delete,old log
+~/Documents/Работа/отчёт за май.docx,file,1.2,60,keep,russian document
+~/Documents/Taxes/2025 tax return.pdf,file,2,100,keep,document
+~/Pictures/Отпуск 2024,dir,8000,300,keep,photos
+~/Pictures/Photos Library 2.photoslibrary,dir,45000,5,keep,photos library
+~/.ssh/authorized_keys,file,0.01,400,keep,ssh
+~/.ssh/id_ecdsa,file,0.01,700,keep,ssh key
+~/code/my-new-app/src,dir,12,1,keep,source
+~/code/my-new-app/.git,dir,85,1,keep,history
+~\AppData\Roaming\Telegram Desktop\tdata\key_datas,file,0.01,1,keep,session
+C:\Windows\System32\drivers\etc,dir,0.1,900,keep,system
+C:\Windows\WinSxS\amd64_microsoft-windows-foo,dir,30,900,keep,system
+/System/Library/Fonts,dir,700,300,keep,system
+/Applications/Figma.app,dir,400,30,keep,app
+C:\Program Files\Blender Foundation,dir,900,90,keep,app
+~/Documents/Диплом/глава 2.docx,file,3,40,keep,thesis
+~/Desktop/passport-scan.jpg,file,3,500,keep,personal scan
+~\Documents\Budget 2025.xlsx,file,0.3,20,keep,document
+~/Music/My Band/demo-03.logicx,dir,1800,200,keep,music project
+~/Library/Application Support/Minecraft/saves/Survival,dir,300,50,keep,game save
+~/.config/nvim/init.lua,file,0.02,100,keep,dotfile
+~/Library/Keychains/metadata.keychain-db,file,1,10,keep,keychain
+~/Movies/birthday-2019.mp4,file,4200,1900,review,family video
+~/Library/Application Support/MobileSync/Backup/00008101-0012345,dir,38000,400,review,iphone backup
+~/models/qwen2.5-7b-instruct-q4.gguf,file,4700,90,review,ai model
+~/Downloads/old-stuff.zip,file,1600,700,review,old archive
+~/ml/env,dir,2800,300,review,virtualenv
+~/Downloads/Telegram Desktop/video_2024-02-14_19-22-31.mp4,file,900,500,review,downloaded video
+~/VirtualBox VMs/Fedora/Fedora.vdi,file,14000,200,review,vm disk
+~/Desktop/Screen Recording 2025-01-30 at 18.44.02.mov,file,3100,100,review,screen recording
+~/Documents/contract copy.pdf,file,1,300,review,copy
+~/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B,dir,2500,60,review,ai model
+C:\Program Files (x86)\Steam\steamapps\common\Terraria,dir,600,400,review,game
+~/Downloads/ubuntu-25.04-desktop-amd64.iso,file,6000,3,review,fresh iso

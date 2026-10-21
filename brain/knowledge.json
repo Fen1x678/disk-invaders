@@ -1,0 +1,352 @@
+[
+  {
+    "id": "node_modules",
+    "match": ["node_modules"],
+    "verdict": "delete",
+    "en": "Downloaded JavaScript packages of a project. `npm install` (or yarn/pnpm) downloads them again in a minute. Old projects are the best place to free gigabytes.",
+    "ru": "Скачанные JavaScript-пакеты проекта. `npm install` (или yarn/pnpm) скачает их заново за минуту. В старых проектах здесь лежат гигабайты."
+  },
+  {
+    "id": "rust_target",
+    "match": ["/target"],
+    "verdict": "delete",
+    "en": "Rust build output (next to Cargo.toml). `cargo build` recreates it. Often several gigabytes per project.",
+    "ru": "Результат сборки Rust (рядом с Cargo.toml). `cargo build` создаст его снова. Часто несколько гигабайт на проект."
+  },
+  {
+    "id": "deriveddata",
+    "match": ["deriveddata"],
+    "verdict": "delete",
+    "en": "Xcode build cache. Completely safe: Xcode rebuilds it on the next build. Can grow to tens of gigabytes.",
+    "ru": "Кэш сборки Xcode. Полностью безопасно: Xcode пересоберёт его при следующей сборке. Может разрастаться до десятков гигабайт."
+  },
+  {
+    "id": "devicesupport",
+    "match": ["devicesupport"],
+    "verdict": "delete",
+    "en": "Debug symbols Xcode copied from every iPhone/iPad version you ever connected. Delete old iOS versions; Xcode re-copies them when needed.",
+    "ru": "Отладочные символы, которые Xcode скопировал с каждой версии iOS, когда-либо подключённой к Mac. Старые версии можно удалить, Xcode скопирует их снова при необходимости."
+  },
+  {
+    "id": "coresimulator",
+    "match": ["coresimulator"],
+    "verdict": "delete",
+    "en": "iOS Simulator caches. Safe to delete; simulators recreate them.",
+    "ru": "Кэш симулятора iOS. Можно удалить, симуляторы создадут его заново."
+  },
+  {
+    "id": "xcarchive",
+    "match": ["xcarchive", "xcode/archives"],
+    "verdict": "review",
+    "en": "App builds you archived in Xcode for the App Store. Keep the ones of released versions if you may need their crash symbols.",
+    "ru": "Архивы сборок приложений из Xcode для App Store. Оставьте архивы выпущенных версий, если могут понадобиться их символы для разбора падений."
+  },
+  {
+    "id": "gradle",
+    "match": [".gradle", "gradle/caches"],
+    "verdict": "delete",
+    "en": "Gradle cache and downloaded Android/Java libraries. Gradle downloads them again on the next build.",
+    "ru": "Кэш Gradle и скачанные библиотеки Android/Java. Gradle скачает их снова при следующей сборке."
+  },
+  {
+    "id": "build_dir",
+    "match": ["/build", "cmake-build-"],
+    "verdict": "delete",
+    "en": "Build output of a project (Gradle, Flutter, CMake). Recreated by the next build.",
+    "ru": "Результат сборки проекта (Gradle, Flutter, CMake). Создаётся заново при следующей сборке."
+  },
+  {
+    "id": "pycache",
+    "match": ["__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".tox"],
+    "verdict": "delete",
+    "en": "Python caches: compiled bytecode and test/type-checker caches. Python recreates them automatically.",
+    "ru": "Кэши Python: скомпилированный байт-код и кэши тестов и проверки типов. Python создаёт их заново автоматически."
+  },
+  {
+    "id": "venv",
+    "match": [".venv", "/venv", "virtualenv"],
+    "verdict": "review",
+    "en": "A Python virtual environment with installed packages. Delete it for projects you no longer touch; recreate with `python -m venv` + `pip install -r requirements.txt`.",
+    "ru": "Виртуальное окружение Python с установленными пакетами. Удалите его у заброшенных проектов, а при необходимости создайте заново: `python -m venv` и `pip install -r requirements.txt`."
+  },
+  {
+    "id": "js_framework_cache",
+    "match": [".next", ".nuxt", ".turbo", ".parcel-cache", ".svelte-kit", ".angular"],
+    "verdict": "delete",
+    "en": "Build cache of a JavaScript framework (Next.js, Nuxt, Turborepo, Parcel, SvelteKit, Angular). Recreated on the next `npm run dev` or build.",
+    "ru": "Кэш сборки JavaScript-фреймворка (Next.js, Nuxt, Turborepo, Parcel, SvelteKit, Angular). Создаётся заново при следующем `npm run dev` или сборке."
+  },
+  {
+    "id": "pods",
+    "match": ["/pods"],
+    "verdict": "delete",
+    "en": "CocoaPods dependencies of an iOS project. `pod install` downloads them again.",
+    "ru": "Зависимости CocoaPods для iOS-проекта. `pod install` скачает их снова."
+  },
+  {
+    "id": "dotnet_obj",
+    "match": ["/obj", "/bin/debug", "/bin/release"],
+    "verdict": "delete",
+    "en": ".NET build output. Visual Studio or `dotnet build` recreates it.",
+    "ru": "Результат сборки .NET. Visual Studio или `dotnet build` создадут его заново."
+  },
+  {
+    "id": "npm_cache",
+    "match": [".npm/_cacache", "npm-cache", ".yarn/berry/cache", ".pnpm-store", "yarn/cache"],
+    "verdict": "delete",
+    "en": "Global cache of downloaded JavaScript packages. Safe to delete; the next install will be a bit slower.",
+    "ru": "Общий кэш скачанных JavaScript-пакетов. Можно удалить, следующая установка просто будет чуть медленнее."
+  },
+  {
+    "id": "pip_cache",
+    "match": ["cache/pip", "pip/cache", ".cache/uv"],
+    "verdict": "delete",
+    "en": "Cache of downloaded Python packages. Safe to delete.",
+    "ru": "Кэш скачанных Python-пакетов. Можно удалить."
+  },
+  {
+    "id": "lang_caches",
+    "match": [".cargo/registry", "go/pkg/mod", ".m2/repository", ".nuget/packages", ".pub-cache", "go-build"],
+    "verdict": "delete",
+    "en": "Downloaded libraries of a programming language (Rust, Go, Java, .NET, Dart). They are downloaded again when a project needs them.",
+    "ru": "Скачанные библиотеки языка программирования (Rust, Go, Java, .NET, Dart). Скачаются снова, когда понадобятся проекту."
+  },
+  {
+    "id": "huggingface",
+    "match": ["huggingface"],
+    "verdict": "review",
+    "en": "AI models downloaded by Python libraries (Hugging Face). Often huge. Delete models you no longer use; they will be downloaded again if a script needs them.",
+    "ru": "ИИ-модели, скачанные Python-библиотеками (Hugging Face). Часто огромные. Удалите те, что больше не нужны; если скрипту понадобится модель, она скачается снова."
+  },
+  {
+    "id": "ollama",
+    "match": [".ollama"],
+    "verdict": "review",
+    "en": "Local AI models of Ollama. Disk Invaders' own voice lives here too! Remove models with `ollama rm <name>` rather than deleting files by hand.",
+    "ru": "Локальные ИИ-модели Ollama. Здесь живёт и голос Disk Invaders! Лучше удалять модели командой `ollama rm <имя>`, а не руками."
+  },
+  {
+    "id": "ai_model_file",
+    "match": [".gguf", ".safetensors", ".ckpt"],
+    "verdict": "review",
+    "en": "An AI model file (several gigabytes). Keep it if you still run it locally; otherwise it's a big win.",
+    "ru": "Файл ИИ-модели (несколько гигабайт). Оставьте, если до сих пор запускаете её локально; иначе это большой выигрыш места."
+  },
+  {
+    "id": "library_caches",
+    "match": ["library/caches"],
+    "verdict": "delete",
+    "en": "An app's cache on macOS. Apps rebuild caches automatically; quit the app first for best results.",
+    "ru": "Кэш приложения в macOS. Приложения пересоздают кэш автоматически; лучше сначала закрыть приложение."
+  },
+  {
+    "id": "electron_cache",
+    "match": ["code cache", "gpucache", "/cache", "cachestorage", "htmlcache", "cacheddata"],
+    "verdict": "delete",
+    "en": "Browser or Electron app cache (Chrome, Slack, Discord, VS Code...). Safe to delete when the app is closed.",
+    "ru": "Кэш браузера или Electron-приложения (Chrome, Slack, Discord, VS Code...). Можно удалить, когда приложение закрыто."
+  },
+  {
+    "id": "library_logs",
+    "match": ["library/logs", "diagnosticreports"],
+    "verdict": "delete",
+    "en": "Log files and crash reports. Useful only for debugging a problem right now.",
+    "ru": "Логи и отчёты о падениях. Нужны, только если вы прямо сейчас разбираетесь с проблемой."
+  },
+  {
+    "id": "dumps",
+    "match": [".hprof", ".dmp", "crashdumps", "/cores/", "core."],
+    "verdict": "delete",
+    "en": "A memory dump written when a program crashed. Big and almost never needed afterwards.",
+    "ru": "Дамп памяти, записанный при падении программы. Большой и почти никогда потом не нужен."
+  },
+  {
+    "id": "log_files",
+    "match": [".log", "npm-debug", "yarn-error"],
+    "verdict": "delete",
+    "en": "A text log written by a program. Safe to delete unless you are investigating an error.",
+    "ru": "Текстовый лог программы. Можно удалить, если вы не разбираетесь сейчас с ошибкой."
+  },
+  {
+    "id": "windows_temp",
+    "match": ["appdata/local/temp", "/temp/", "/tmp/", "temporaryitems"],
+    "verdict": "delete",
+    "en": "Temporary files. Programs are supposed to clean them up but often forget. Safe to delete (files in use are simply skipped).",
+    "ru": "Временные файлы. Программы должны удалять их сами, но часто забывают. Можно удалить (занятые файлы просто пропустятся)."
+  },
+  {
+    "id": "inetcache",
+    "match": ["inetcache"],
+    "verdict": "delete",
+    "en": "Old Internet Explorer / Edge web cache on Windows. Safe to delete.",
+    "ru": "Старый веб-кэш Internet Explorer / Edge в Windows. Можно удалить."
+  },
+  {
+    "id": "shader_cache",
+    "match": ["d3dscache", "dxcache", "glcache", "shadercache"],
+    "verdict": "delete",
+    "en": "Graphics shader cache (DirectX, NVIDIA, AMD). Games rebuild it; the first launch may stutter a little.",
+    "ru": "Кэш шейдеров видеокарты (DirectX, NVIDIA, AMD). Игры пересоздадут его; первый запуск может слегка подтормаживать."
+  },
+  {
+    "id": "thumbcache",
+    "match": ["thumbcache", "thumbs.db", ".ds_store"],
+    "verdict": "delete",
+    "en": "Thumbnail or folder-view cache created by Windows/macOS. Tiny and recreated automatically.",
+    "ru": "Кэш миниатюр или настроек вида папки от Windows/macOS. Крошечный и создаётся заново автоматически."
+  },
+  {
+    "id": "office_lock",
+    "match": ["~$"],
+    "verdict": "delete",
+    "en": "A leftover Office lock file (starts with ~$). Safe to delete when the document is closed.",
+    "ru": "Оставшийся файл-блокировка Office (начинается с ~$). Можно удалить, когда документ закрыт."
+  },
+  {
+    "id": "mobilesync",
+    "match": ["mobilesync/backup"],
+    "verdict": "review",
+    "en": "An iPhone/iPad backup made by Finder or iTunes. Often 10-100 GB. Delete old ones only if you have a newer backup or use iCloud Backup.",
+    "ru": "Резервная копия iPhone/iPad, сделанная через Finder или iTunes. Часто 10–100 ГБ. Удаляйте старые, только если есть более свежая копия или включён бэкап в iCloud."
+  },
+  {
+    "id": "docker",
+    "match": ["docker.raw", "ext4.vhdx", "com.docker.docker"],
+    "verdict": "review",
+    "en": "Docker's virtual disk with all images and containers. Don't delete the file: run `docker system prune -a` to shrink it safely.",
+    "ru": "Виртуальный диск Docker со всеми образами и контейнерами. Не удаляйте файл руками: выполните `docker system prune -a`, чтобы безопасно его уменьшить."
+  },
+  {
+    "id": "vm_disk",
+    "match": [".vdi", ".vmdk", ".vhd", ".qcow2", ".utm", ".pvm", "virtualbox vms"],
+    "verdict": "review",
+    "en": "A virtual machine's hard disk. Deleting it deletes the whole VM with everything inside.",
+    "ru": "Жёсткий диск виртуальной машины. Удалив его, вы удалите всю виртуалку со всем содержимым."
+  },
+  {
+    "id": "trash",
+    "match": [".trash", "$recycle.bin"],
+    "verdict": "delete",
+    "en": "Already in the Trash / Recycle Bin, still taking space. Deleting here is final.",
+    "ru": "Уже лежит в Корзине, но всё ещё занимает место. Удаление отсюда — навсегда."
+  },
+  {
+    "id": "installers",
+    "match": [".dmg", ".pkg", ".msi", ".exe", ".xip", "setup", "installer"],
+    "verdict": "delete",
+    "en": "An installer. Once the app is installed it's not needed; you can always download the latest version again.",
+    "ru": "Установщик. После установки программы он не нужен, свежую версию всегда можно скачать снова."
+  },
+  {
+    "id": "iso",
+    "match": [".iso", ".img"],
+    "verdict": "review",
+    "en": "A disk image (often an OS installer). Delete it if you already installed it or can download it again.",
+    "ru": "Образ диска (часто установщик ОС). Удалите, если уже установили систему или можете скачать образ снова."
+  },
+  {
+    "id": "downloads",
+    "match": ["/downloads/"],
+    "verdict": "review",
+    "en": "Something in Downloads. Old downloads are usually forgotten, but check: some people keep important files here.",
+    "ru": "Что-то из «Загрузок». Старые загрузки обычно забыты, но проверьте: некоторые хранят тут важное."
+  },
+  {
+    "id": "copies",
+    "match": [" copy", "(1)", "(2)", "- copy", "копия"],
+    "verdict": "review",
+    "en": "Looks like a duplicate (\"copy\", \"(1)\"). Compare with the original before deleting.",
+    "ru": "Похоже на копию («copy», «(1)»). Сравните с оригиналом перед удалением."
+  },
+  {
+    "id": "videos",
+    "match": [".mov", ".mp4", ".mkv", "screen recording", "obs-recording"],
+    "verdict": "review",
+    "en": "A video: usually the biggest personal files. Move to an external drive or cloud if it's a memory, delete if it's an old recording.",
+    "ru": "Видео: обычно самые большие личные файлы. Если это память — перенесите на внешний диск или в облако, если старая запись — удалите."
+  },
+  {
+    "id": "fcp_render",
+    "match": ["render files", "transcoded media", "analysis files"],
+    "verdict": "delete",
+    "en": "Final Cut Pro render and proxy files. Final Cut regenerates them; your project stays intact.",
+    "ru": "Рендеры и прокси-файлы Final Cut Pro. Final Cut пересоздаст их, сам проект не пострадает."
+  },
+  {
+    "id": "photos_library",
+    "match": [".photoslibrary", "lightroom", "camera roll", "/pictures/"],
+    "verdict": "keep",
+    "en": "Your photos. Never delete files inside a Photos library by hand; use the Photos app (and \"Optimize Mac Storage\" to keep originals in iCloud).",
+    "ru": "Ваши фотографии. Никогда не удаляйте файлы внутри медиатеки «Фото» руками — пользуйтесь приложением «Фото» (и функцией «Оптимизировать хранилище», чтобы оригиналы жили в iCloud)."
+  },
+  {
+    "id": "documents",
+    "match": ["/documents/", ".docx", ".pdf", ".xlsx", ".pptx", ".pages"],
+    "verdict": "keep",
+    "en": "A personal document. Tiny compared to caches; keep it.",
+    "ru": "Личный документ. Крошечный по сравнению с кэшами — оставьте его."
+  },
+  {
+    "id": "source_code",
+    "match": ["/src", "/.git", "readme.md", "package.json", "cargo.toml", "requirements.txt"],
+    "verdict": "keep",
+    "en": "Source code or project history (.git). This is the actual work; never delete it to free space.",
+    "ru": "Исходный код или история проекта (.git). Это и есть сама работа — не удаляйте её ради места."
+  },
+  {
+    "id": "secrets",
+    "match": [".ssh", ".gnupg", "keychains", ".kdbx", ".aws", "password", "1password", "credentials"],
+    "verdict": "keep",
+    "en": "Keys and passwords. Deleting them can lock you out of servers, accounts or your Mac. Disk Invaders refuses to touch them.",
+    "ru": "Ключи и пароли. Удалив их, можно потерять доступ к серверам, аккаунтам или к самому Mac. Disk Invaders их не трогает."
+  },
+  {
+    "id": "icloud",
+    "match": ["mobile documents", "clouddocs", "onedrive", "dropbox", "google drive"],
+    "verdict": "keep",
+    "en": "A synced cloud folder. Deleting here deletes the file on all your devices. Free space with the cloud app's \"online only\" option instead.",
+    "ru": "Папка облачной синхронизации. Удаление здесь удалит файл на всех ваших устройствах. Лучше освободите место опцией «только в облаке»."
+  },
+  {
+    "id": "telegram_tdata",
+    "match": ["tdata"],
+    "verdict": "keep",
+    "en": "Telegram Desktop's session and settings. Deleting it logs you out. Clear Telegram's media cache from its settings instead.",
+    "ru": "Сессия и настройки Telegram Desktop. Удаление разлогинит вас. Кэш медиа лучше очистить в настройках Telegram."
+  },
+  {
+    "id": "game_saves",
+    "match": ["saves", "saved games", "userdata"],
+    "verdict": "keep",
+    "en": "Game saves and profiles. Hours of progress live here.",
+    "ru": "Сохранения игр и профили. Здесь живут часы вашего прогресса."
+  },
+  {
+    "id": "games",
+    "match": ["steamapps"],
+    "verdict": "review",
+    "en": "An installed game. Uninstall it from Steam if you don't play it (saves usually stay in the cloud).",
+    "ru": "Установленная игра. Удалите её через Steam, если не играете (сохранения обычно остаются в облаке)."
+  },
+  {
+    "id": "apps",
+    "match": ["/applications/", "program files", ".app"],
+    "verdict": "keep",
+    "en": "An installed application. Uninstall unused apps the normal way (drag to Trash on Mac, Settings > Apps on Windows).",
+    "ru": "Установленное приложение. Ненужные программы удаляйте обычным способом (в Корзину на Mac, «Параметры → Приложения» в Windows)."
+  },
+  {
+    "id": "system",
+    "match": ["/system/", "system32", "winsxs", "/usr/", "pagefile.sys", "hiberfil.sys", "programdata"],
+    "verdict": "keep",
+    "en": "Part of the operating system. Deleting it can stop the computer from booting. Disk Invaders blocks it.",
+    "ru": "Часть операционной системы. Удаление может сломать загрузку компьютера. Disk Invaders это блокирует."
+  },
+  {
+    "id": "messages_mail",
+    "match": ["library/messages", "library/mail", "com.apple.notes"],
+    "verdict": "keep",
+    "en": "Your messages, mail or notes. Clean them up inside the app (large attachments), not on disk.",
+    "ru": "Ваши сообщения, почта или заметки. Чистите их внутри приложения (большие вложения), а не на диске."
+  }
+]

@@ -1,0 +1,14 @@
+[workspace]
+# Resolver 3 picks dependency versions that work with `rust-version` below.
+resolver = "3"
+members = ["crates/core", "src-tauri"]
+
+[workspace.package]
+# Oldest Rust that builds the app (Tauri 2 needs 1.90).
+rust-version = "1.90"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+strip = true
