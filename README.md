@@ -30,40 +30,45 @@ Disk cleaners are either paid, closed-source, or look like a tax form. Disk Inva
 | ![Brain](docs/screenshots/brain.png) | ![Brain says](docs/screenshots/brain-says.png) |
 | ![Phosphor](docs/screenshots/theme-phosphor.png) | ![C64](docs/screenshots/theme-c64.png) |
 
-## 📥 Install (no programming needed)
+## 📥 Install
 
-1. Open **[Releases](../../releases/latest)** and download the file for your computer:
+No terminal, no extra downloads: just the app.
 
-   | Your computer | File to download |
-   |---|---|
-   | 🍎 Mac (Apple Silicon or Intel) | `Disk.Invaders_x.y.z_universal.dmg` |
-   | 🪟 Windows 10 / 11 | `Disk.Invaders_x.y.z_x64-setup.exe` |
+<p align="center">
+  <a href="https://github.com/Fen1x678/disk-invaders/releases/latest/download/Disk-Invaders-macOS.dmg"><img src="https://img.shields.io/badge/DOWNLOAD_FOR-macOS-ff2a6d?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS" height="44"></a>
+  &nbsp;
+  <a href="https://github.com/Fen1x678/disk-invaders/releases/latest/download/Disk-Invaders-Windows-setup.exe"><img src="https://img.shields.io/badge/DOWNLOAD_FOR-Windows-05d9e8?style=for-the-badge" alt="Download for Windows" height="44"></a>
+</p>
+<p align="center"><sub>macOS 10.15+ (Apple Silicon and Intel) · Windows 10 / 11 · <a href="../../releases">all versions</a></sub></p>
 
-2. Install it:
+| | 🍎 macOS | 🪟 Windows |
+|---|---|---|
+| **1** | Open `Disk-Invaders-macOS.dmg` | Open `Disk-Invaders-Windows-setup.exe` |
+| **2** | Drag **Disk Invaders** into **Applications** | Click **Next → Install** |
+| **3** | Open it from **Applications** | Open **Disk Invaders** from the Start menu |
 
 <details>
-<summary><b>🍎 macOS: step by step</b></summary>
+<summary><b>🍎 macOS says it "cannot verify the developer"?</b></summary>
 
-1. Open the `.dmg` and drag **Disk Invaders** into **Applications**.
-2. Start it from Applications. The app is not notarized by Apple yet, so the first time macOS says it *cannot verify the developer*:
-   - click **Done**, then open **System Settings → Privacy &amp; Security**, scroll down and click **Open Anyway**;
-   - or run once in Terminal: `xattr -dr com.apple.quarantine "/Applications/Disk Invaders.app"`
-3. For a full scan, add the app in **System Settings → Privacy &amp; Security → Full Disk Access** and restart it.
+The app is free and not registered with Apple ($99/year), so macOS asks once:
+
+1. Click **Done** in the warning.
+2. Open **System Settings → Privacy &amp; Security**, scroll down, click **Open Anyway** and confirm.
+
+To scan *everything*, also turn on Disk Invaders in **System Settings → Privacy &amp; Security → Full Disk Access**.
 
 </details>
 
 <details>
-<summary><b>🪟 Windows: step by step</b></summary>
+<summary><b>🪟 Windows shows "Windows protected your PC"?</b></summary>
 
-1. Run the `-setup.exe` file.
-2. If **"Windows protected your PC"** appears: click **More info → Run anyway** (the app is not signed yet).
-3. Finish the installer and start **Disk Invaders** from the Start menu.
+The installer has no paid signature yet. Click **More info → Run anyway**. No administrator rights needed.
 
 </details>
 
-## 🛠 Build from source
+## 🛠 Build from source (for developers)
 
-Only if you want to change the code. Every command runs **in the project folder**, the one that contains `package.json`.
+Only needed if you want to change the code. Every command runs **in the project folder**, the one that contains `package.json`.
 
 <details>
 <summary><b>🍎 macOS</b></summary>
